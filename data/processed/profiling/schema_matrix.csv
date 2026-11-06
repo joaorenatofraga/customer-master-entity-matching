@@ -1,0 +1,13 @@
+column,ERP,CRM,E-commerce
+address_line_1,True,True,True
+city,True,True,True
+company_name,True,True,True
+email,True,True,True
+ground_truth_id,True,True,True
+phone,True,True,True
+postal_code,True,True,True
+source_customer_id,True,True,True
+source_system,True,True,True
+state,True,True,True
+tax_id,True,True,True
+updated_at,True,True,True

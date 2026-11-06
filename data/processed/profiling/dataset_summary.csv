@@ -1,0 +1,4 @@
+source,rows,columns,total_cells,populated_cells,missing_cells,blank_cells,completeness_pct,exact_duplicate_rows,exact_duplicate_pct
+ERP,500,12,6000,6000,0,0,100.0,0,0.0
+CRM,406,12,4872,4466,406,0,91.67,0,0.0
+E-commerce,331,12,3972,3527,445,0,88.8,0,0.0

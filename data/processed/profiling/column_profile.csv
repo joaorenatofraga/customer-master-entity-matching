@@ -1,0 +1,37 @@
+source,column,total_rows,populated_count,populated_pct,missing_count,missing_pct,blank_count,blank_pct,exact_distinct_count,normalized_distinct_count,normalized_uniqueness_pct,rows_in_repeated_values,minimum_length,maximum_length,sample_values
+ERP,ground_truth_id,500,500,100.0,0,0.0,0,0.0,500,500,100.0,0,9,9,GT-000001 | GT-000002 | GT-000003
+ERP,source_system,500,500,100.0,0,0.0,0,0.0,1,1,0.2,500,3,3,ERP
+ERP,source_customer_id,500,500,100.0,0,0.0,0,0.0,500,500,100.0,0,10,10,ERP-000001 | ERP-000002 | ERP-000003
+ERP,company_name,500,500,100.0,0,0.0,0,0.0,500,500,100.0,0,7,33,"Rodriguez, Figueroa and Sanchez | Gardner, Robinson and Lawrence | Martinez, Nielsen and Miller"
+ERP,tax_id,500,500,100.0,0,0.0,0,0.0,500,500,100.0,0,10,10,45-4108603 | 21-6374122 | 34-1166941
+ERP,email,500,500,100.0,0,0.0,0,0.0,500,500,100.0,0,18,35,contact@rodriguezfigueroaand1.com | contact@gardnerrobinsonandla2.com | contact@martineznielsenandmi3.com
+ERP,phone,500,500,100.0,0,0.0,0,0.0,500,500,100.0,0,12,12,855-314-0409 | 982-544-1674 | 834-570-9459
+ERP,address_line_1,500,500,100.0,0,0.0,0,0.0,500,500,100.0,0,12,32,181 Johnson Course | 65423 Garcia Light | 959 Janet Cape Apt. 413
+ERP,city,500,500,100.0,0,0.0,0,0.0,493,493,98.6,14,7,22,East William | West Melanieview | South Joshuastad
+ERP,state,500,500,100.0,0,0.0,0,0.0,59,59,11.8,500,2,2,AK | AS | GA
+ERP,postal_code,500,500,100.0,0,0.0,0,0.0,500,500,100.0,0,5,5,74064 | 06196 | 49021
+ERP,updated_at,500,500,100.0,0,0.0,0,0.0,360,360,72.0,252,10,10,2025-03-31 | 2026-05-17 | 2025-07-30
+CRM,ground_truth_id,406,406,100.0,0,0.0,0,0.0,406,406,100.0,0,9,9,GT-000001 | GT-000002 | GT-000003
+CRM,source_system,406,406,100.0,0,0.0,0,0.0,1,1,0.25,406,3,3,CRM
+CRM,source_customer_id,406,406,100.0,0,0.0,0,0.0,406,406,100.0,0,10,10,CRM-000001 | CRM-000002 | CRM-000003
+CRM,company_name,406,406,100.0,0,0.0,0,0.0,405,403,99.26,6,3,33,"Rodriguez, Figueroa and Sanchez | Gardner, Robinson and Lawrence | MARTINEZ, NIELSEN AND MILLER"
+CRM,tax_id,406,93,22.91,313,77.09,0,0.0,93,93,100.0,0,9,10,22-0848731 | 574781295 | 146194416
+CRM,email,406,375,92.36,31,7.64,0,0.0,375,375,100.0,0,18,35,contact@rodriguezfigueroaand1.com | contact@gardnerrobinsonandla2.com | contact@martineznielsenandmi3.com
+CRM,phone,406,364,89.66,42,10.34,0,0.0,364,364,100.0,0,14,14,(982) 544-1674 | (834) 570-9459 | (425) 341-8348
+CRM,address_line_1,406,406,100.0,0,0.0,0,0.0,406,406,100.0,0,11,32,181 Johnson Course | 65423 Garcia Light | 959 Janet Cape Apt. 413
+CRM,city,406,406,100.0,0,0.0,0,0.0,400,400,98.52,12,7,22,East William | West Melanieview | South Joshuastad
+CRM,state,406,406,100.0,0,0.0,0,0.0,59,59,14.53,406,2,2,AK | AS | GA
+CRM,postal_code,406,386,95.07,20,4.93,0,0.0,386,386,100.0,0,5,5,74064 | 06196 | 49021
+CRM,updated_at,406,406,100.0,0,0.0,0,0.0,311,311,76.6,178,10,10,2026-05-07 | 2025-10-19 | 2025-04-08
+E-commerce,ground_truth_id,331,331,100.0,0,0.0,0,0.0,331,331,100.0,0,9,9,GT-000001 | GT-000003 | GT-000005
+E-commerce,source_system,331,331,100.0,0,0.0,0,0.0,1,1,0.3,331,9,9,ECOMMERCE
+E-commerce,source_customer_id,331,331,100.0,0,0.0,0,0.0,331,331,100.0,0,10,10,ECM-000001 | ECM-000003 | ECM-000005
+E-commerce,company_name,331,331,100.0,0,0.0,0,0.0,331,330,99.7,2,4,31,"Rodriguez, Figueroa and Sanchez | Martinez, Nielsen and Miller | Trujillo Group"
+E-commerce,tax_id,331,18,5.44,313,94.56,0,0.0,18,18,100.0,0,9,10,927190929 | 67-9035882 | 95-0157662
+E-commerce,email,331,316,95.47,15,4.53,0,0.0,316,316,100.0,0,18,35,CONTACT@RODRIGUEZFIGUEROAAND1.COM | contact@martineznielsenandmi3.com | contact@trujillogroup5.com
+E-commerce,phone,331,270,81.57,61,18.43,0,0.0,270,270,100.0,0,15,15,+1 834 570 9459 | +1 611 474 1084 | +1 425 341 8348
+E-commerce,address_line_1,331,331,100.0,0,0.0,0,0.0,331,331,100.0,0,11,32,181 JOHNSON COURSE | 959 Janet Cape Apt. 413 | 39537 Wilkerson Row Suite 242
+E-commerce,city,331,315,95.17,16,4.83,0,0.0,312,312,99.05,6,7,22,East William | South Joshuastad | Lake Anna
+E-commerce,state,331,319,96.37,12,3.63,0,0.0,59,59,18.5,319,2,2,AK | GA | KS
+E-commerce,postal_code,331,303,91.54,28,8.46,0,0.0,303,303,100.0,0,5,5,74064 | 49021 | 98413
+E-commerce,updated_at,331,331,100.0,0,0.0,0,0.0,258,258,77.95,132,10,10,2026-03-16 | 2026-04-01 | 2025-09-25

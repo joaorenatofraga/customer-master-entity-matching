@@ -1,0 +1,10 @@
+source,column,rule,populated_count,valid_count,invalid_count,valid_pct,invalid_examples
+ERP,email,Basic email structure,500,500,0,100.0,
+ERP,tax_id,US EIN format: NN-NNNNNNN,500,500,0,100.0,
+ERP,postal_code,US ZIP format: NNNNN or NNNNN-NNNN,500,500,0,100.0,
+CRM,email,Basic email structure,375,375,0,100.0,
+CRM,tax_id,US EIN format: NN-NNNNNNN,93,52,41,55.91,574781295 | 146194416 | 346442089 | 267945036 | 983106298
+CRM,postal_code,US ZIP format: NNNNN or NNNNN-NNNN,386,386,0,100.0,
+E-commerce,email,Basic email structure,316,316,0,100.0,
+E-commerce,tax_id,US EIN format: NN-NNNNNNN,18,6,12,33.33,927190929 | 247857296 | 920358318 | 252994290 | 729607925
+E-commerce,postal_code,US ZIP format: NNNNN or NNNNN-NNNN,303,303,0,100.0,
